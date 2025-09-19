@@ -1,0 +1,24 @@
+Input (a,b)=(1,2)
+Path chosen: N0->N1->N3->N2
+Sum: 3
+[PASS] Example test (a<b)
+Input (a,b)=(3,3)
+Path chosen: N0->N3->N2
+Sum: 6
+[PASS] Test (a==b)
+Input (a,b)=(5,3)
+Path chosen: N0->N2
+Sum: 8
+[PASS] Test (a>b)
+Input (a,b)=(9,10)
+Path chosen: N0->N1->N3->N2
+Sum: 19
+[PASS] Boundary test (a<b)
+Input (a,b)=(10,10)
+Path chosen: N0->N3->N2
+Sum: 20
+[PASS] Boundary Test (a==b)
+Input (a,b)=(11,10)
+Path chosen: N0->N2
+Sum: 21
+[PASS] Boundary Test (a>b)
